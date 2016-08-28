@@ -26,14 +26,14 @@ Tiny stack provides two API's
 
 2. Pushing Object to Stack.
 
-  * Method 1
+** Method 1 **
 
 ```
 	int data = 234324;
 	tinyStackPush(&test_stack,(uint8_t*)&data,sizeof(int));
 ```
 
-  * Method 2
+** Method 2 **
 
 ```
 	uint8_t *data_ptr;int data;
@@ -47,7 +47,7 @@ Tiny stack provides two API's
 
 3. Retreiving object from Stack.
 
-  * Method 1
+** Method 1 **
 
 ```
 	int data;
@@ -55,7 +55,7 @@ Tiny stack provides two API's
 
 ```
 
-  * Method 2
+** Method 2 **
 
 ```
 	uint8_t *data_ptr;uint16_t length;

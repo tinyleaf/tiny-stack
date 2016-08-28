@@ -3,7 +3,7 @@ Stack implementation in C for storing objects
 
 # Introduction
 
-Tiny stack is the C code for storing and retreiving objects by **first in last 
+Tiny stack is the C code for storing and retrieving objects by **first in last 
 out** oder. The stack stores varying objects size. Tiny stack stores both 
 object data and length. The objects are copied to the stack byte by byte.
 
@@ -47,7 +47,7 @@ Tiny stack provides two API's
 
 ```
 
-## Retreiving object from Stack.
+## Retrieving object from Stack.
 
 
 ```

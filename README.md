@@ -9,8 +9,8 @@ object data and length. The objects are copied to the stack byte by byte.
 
 Tiny stack provides two API's
 
-1. API to Push and Pop object by passing pointer to data object
-2. API to Push and Pop object by getting pointer to store the data on stack.
+1. API to Push and Pop object by passing pointer of the data object
+2. API to Push and Pop object by getting pointer to the data object.
 
 # Example
 
@@ -26,16 +26,18 @@ Tiny stack provides two API's
 
 2. Pushing Object to Stack.
 
-  **Method 1**
 
 ```
+	/* METHOD 1: By passing data pointer */
+
 	int data = 234324;
 	tinyStackPush(&test_stack,(uint8_t*)&data,sizeof(int));
 ```
 
-  **Method 2**
 
 ```
+	/* METHOD 2: By getting data pointer */
+
 	uint8_t *data_ptr;int data;
 	// Get the buffer of size of INT.
 	data_ptr = tinyStackTakeBuffer(&test_stack,sizeof(int));
@@ -47,17 +49,19 @@ Tiny stack provides two API's
 
 3. Retreiving object from Stack.
 
-  **Method 1**
 
 ```
+	/* METHOD 1: By passing data pointer */
+	
 	int data;
 	tinyStackPop(&test_stack,(uint8_t*)&data,sizeof(int));
 
 ```
 
-  **Method 2**
 
 ```
+	/* METHOD 2: By getting data pointer */
+
 	uint8_t *data_ptr;uint16_t length;
 	int data;
 	// Get the buffer present at the top of the stack.

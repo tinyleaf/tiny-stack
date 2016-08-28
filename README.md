@@ -14,7 +14,7 @@ Tiny stack provides two API's
 
 # Example
 
-1. Initialize Stack.
+## Initialize Stack.
 
 ```
 	tinyStack_t test_stack; // Test stack object.
@@ -24,7 +24,7 @@ Tiny stack provides two API's
 	tinyStackSetUp(&test_stack,stack_buffer,sizeof(stack_buffer));
 ```
 
-2. Pushing Object to Stack.
+## Pushing Object to Stack.
 
 
 ```
@@ -47,7 +47,7 @@ Tiny stack provides two API's
 
 ```
 
-3. Retreiving object from Stack.
+## Retreiving object from Stack.
 
 
 ```

@@ -12,6 +12,12 @@ Tiny stack provides two API's
 1. API to Push and Pop object by passing pointer of the data object
 2. API to Push and Pop object by getting pointer to the data object.
 
+
+# Source Code
+
+File **tinyStack.h** contains API and data structure.
+FIle **tinyStack.c** contains Stack implementation. 
+
 # Example
 
 ## Initialize Stack.
